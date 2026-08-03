@@ -1,17 +1,17 @@
-def encerrar():
-        print("Encerrando sistema")
-
+from informacao import informacoes
 from checkin import check_in
 from menu import mostrar_menu
 from checkout import check_out
 
-opcao = mostrar_menu()
 
-print(opcao)
+def encerrar():
+    print("Encerrando sistema")
+
+
 
 
 opcao = ""
-while opcao != "3":
+while opcao != "4":
 
     opcao = mostrar_menu()
         
@@ -20,6 +20,8 @@ while opcao != "3":
     elif opcao =="2":
                 check_out()
     elif opcao == "3":
+                informacoes()
+    elif opcao =="4":
                 encerrar()
                          
                         
