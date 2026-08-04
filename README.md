@@ -1,24 +1,56 @@
 # 🏨 GJ-AI HOTEL
 
-Meu primeiro sistema de gerenciamento de hotel desenvolvido em Python.
+Sistema de gerenciamento hoteleiro desenvolvido em Python como projeto de estudo, com foco em boas práticas de programação, orientação a objetos e banco de dados.
 
-## Objetivo
-
-Este projeto foi criado para aprender programação Python, Git, GitHub e desenvolvimento de software na prática.
-
-## Funcionalidades atuais
+## 🚀 Funcionalidades atuais
 
 - Menu principal
-- Check-in (em desenvolvimento)
-- Check-out (em desenvolvimento)
+- Check-in
+- Cadastro de hóspedes
+- Classe `Hospede`
+- Busca de hóspedes por CPF
+- Banco de dados SQLite
+- Persistência de dados
+- Pesquisa de hóspedes já cadastrados
 
-## Tecnologias
+## 🛠 Tecnologias
 
-- Python
+- Python 3
+- SQLite
 - Git
 - GitHub
-- Visual Studio Code
 
-## Autor
+## 📁 Estrutura
 
-Guilherme Jugeick
+src/
+├── main.py
+├── menu.py
+├── checkin.py
+├── models.py
+├── banco.py
+└── hotel.db
+
+## 🎯 Próximas funcionalidades
+
+- [ ] Evitar cadastro duplicado de CPF
+- [ ] Sistema de reservas
+- [ ] Cadastro de quartos
+- [ ] Check-out
+- [ ] Histórico de hospedagens
+- [ ] Interface gráfica
+- [ ] Inteligência Artificial para auxiliar a recepção
+
+## 📚 Objetivo
+
+O GJ-AI HOTEL não é apenas um sistema de hotel. É um projeto para estudar programação na prática, evoluindo gradualmente até se tornar uma aplicação completa.
+
+## 📅 Diário do Projeto
+
+### v0.0.2
+
+- Criada a classe `Hospede`
+- Implementado banco de dados SQLite
+- Criada tabela `hospedes`
+- Implementado cadastro de hóspedes
+- Implementada busca por CPF
+- Conversão dos dados do SQLite em objetos `Hospede`

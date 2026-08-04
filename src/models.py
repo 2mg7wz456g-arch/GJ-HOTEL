@@ -1,10 +1,26 @@
 class Hospede:
 
 
-    def __init__(self, nome_do_hospede, cpf, data_de_nascimento):
-        self.nome_do_hospede = nome_do_hospede
+    def __init__(self, cpf, nome_completo, data_de_nascimento,
+                  telefone, email, cep, logradouro, numero,
+                    complemento, bairro, cidade, estado, pais):
         self.cpf = cpf
+        self.nome_completo = nome_completo
         self.data_de_nascimento = data_de_nascimento
+
+
+        self.telefone = telefone
+        self.email = email
+
+
+        self.cep = cep
+        self.logradouro = logradouro
+        self.numero = numero
+        self.complemento = complemento
+        self.bairro = bairro
+        self.cidade = cidade
+        self.estado = estado
+        self.pais = pais
 
 
 class quarto:
